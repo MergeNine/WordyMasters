@@ -1,12 +1,49 @@
 
-
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
 body {
-    outline: 1px solid darkgoldenrod;
     height:100vh;
-
+    margin: 0;
+    position: relative;
+}
+header{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 18px;
 }
 
+.lineandspinner{
+    margin: 35px;
+    display: inline-block;
+    width: 15%;
+    height: auto;
+    border-top: 2px solid black;
+}
+
+img{
+    margin-top: 10px;
+    width: 20%;
+    animation: rotate 2s linear infinite;
+    display: none;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+
+        transform: rotate(360deg)
+    }
+}
 .parentdiv {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     outline: 1px solid black;
     display: flex;
     justify-content: center;
