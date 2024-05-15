@@ -27,6 +27,7 @@ img {
     margin: 10px;
     width: 40px;
     animation: rotate 1.3s linear infinite;
+    display: none;
 }
 
 @keyframes rotate {
@@ -56,4 +57,9 @@ img {
     border: 3px solid lightgrey;
     height: 45px;
     width: 45px;
+}
+
+
+.hidden{
+    visibility: hidden;
 }
