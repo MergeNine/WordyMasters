@@ -1,0 +1,17 @@
+
+
+body {
+    outline: 1px solid darkgoldenrod;
+    height:100vh;
+
+}
+
+.parentdiv {
+    outline: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+    background-color: lightsteelblue;
+}
