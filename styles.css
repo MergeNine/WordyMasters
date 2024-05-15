@@ -19,16 +19,14 @@ header {
 
 .lineandspinner {
     margin: 35px;
-    display: inline-block;
-    width: 100%;
+    display: block;
     border-top: 2px solid black;
 }
 
 img {
-    margin-top: 10px;
-    width: 20%;
-    animation: rotate 2s linear infinite;
-    display: none;
+    margin: 10px;
+    width: 40px;
+    animation: rotate 1.3s linear infinite;
 }
 
 @keyframes rotate {
@@ -43,6 +41,7 @@ img {
 
 .scoreboard {
     position: absolute;
+    margin-top: 1%;
     top: 30%;
     left: 50%;
     width: auto;
@@ -52,7 +51,6 @@ img {
     row-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
-
 
 .scoreboard-letter {
     border: 3px solid lightgrey;
